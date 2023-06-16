@@ -1,4 +1,4 @@
 package Exceptions
 
-class NoteNotFoundException () : RuntimeException() {
+class NoteNotFoundException (message:String = "Note(s) not found") : RuntimeException(message) {
 }

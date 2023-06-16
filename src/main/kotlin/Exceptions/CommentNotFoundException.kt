@@ -1,4 +1,4 @@
 package Exceptions
 
-class CommentNotFoundException () : RuntimeException() {
+class CommentNotFoundException (message:String = "Comment(s) not found") : RuntimeException(message) {
 }

@@ -1,4 +1,4 @@
 package Exceptions
 
-class WrongNotePrivacyException (message: String) : RuntimeException(message) {
+class WrongNotePrivacyException (message: String = "Wrong privacy value") : RuntimeException(message) {
 }
